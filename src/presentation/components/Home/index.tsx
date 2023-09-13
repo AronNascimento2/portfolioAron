@@ -41,13 +41,13 @@ export const Home = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img className="icon-img" src="./src/assets/css.png" />
+                    <img className="icon-img" src="/src/assets/css.png" />
                   </a>
                 </li>
 
                 <li>
                   <a href="https://react.dev/" target="_blank">
-                    <img className="icon-img" src="./src/assets/react.png" />
+                    <img className="icon-img" src="/src/assets/react.png" />
                   </a>
                 </li>
               </ul>
