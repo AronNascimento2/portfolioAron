@@ -5,10 +5,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  position: relative;
   align-items: center;
   justify-content: center;
-
   font-family: "Poppins", sans-serif;
   h4 {
     color: #2d2e32;
@@ -29,7 +27,6 @@ export const Container = styled.div`
     gap: 3rem;
     justify-content: center;
     position: relative;
-    top: -116px;
   }
   .informations-about {
     display: flex;
@@ -63,9 +60,19 @@ export const Container = styled.div`
     ); /* Aplique um zoom de 110% quando o mouse estiver sobre a imagem */
   }
   @media (max-width: 768px) {
-    width: 100%;
+    .informations-about {
+      width: auto;
+      max-width: 400px;
+    }
+    .img-about {
+      width: auto;
+      max-width: 400px;
+    }
     .content-about {
-      width: 100%;
+      width: auto;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
     }
     h4 {
       text-align: center;
@@ -77,7 +84,9 @@ export const Container = styled.div`
       font-size: 15px;
     }
     .box-about {
-      display: none;
+      width: auto;
+      margin: 1rem;
+      max-width: 500px;
     }
   }
 `;

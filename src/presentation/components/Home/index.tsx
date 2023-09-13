@@ -21,7 +21,7 @@ export const Home = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img className="icon-img" src="./src/assets/js.png" />
+                    <img className="icon-img" src="assets/js.png" />
                   </a>
                 </li>
 
@@ -31,7 +31,7 @@ export const Home = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img className="icon-img" src="./src/assets/html.png" />
+                    <img className="icon-img" src="assets/html.png" />
                   </a>
                 </li>
 
@@ -41,13 +41,13 @@ export const Home = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img className="icon-img" src="/src/assets/css.png" />
+                    <img className="icon-img" src="assets/css.png" />
                   </a>
                 </li>
 
                 <li>
                   <a href="https://react.dev/" target="_blank">
-                    <img className="icon-img" src="/src/assets/react.png" />
+                    <img className="icon-img" src="assets/react.png" />
                   </a>
                 </li>
               </ul>
@@ -56,7 +56,7 @@ export const Home = () => {
         </div>
 
         <div className="box">
-          <img className="photo" src="src/assets/aron1.png" alt="" />
+          <img className="photo" src="assets/aron1.png" alt="" />
         </div>
       </div>
     </S.Container>

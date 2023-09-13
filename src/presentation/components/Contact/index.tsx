@@ -17,14 +17,14 @@ export const Contact = () => {
             <div className="content__icon-box">
               <span>
                 {" "}
-                <img className="icon-img" src="./src/assets/linkedin.png" />
+                <img className="icon-img" src="assets/linkedin.png" />
               </span>
             </div>
           </a>
           <a href="https://github.com/AronNascimento2" target="_blank">
             <div className="content__icon-box">
               <span>
-                <img className="icon-img" src="./src/assets/github.png" />
+                <img className="icon-img" src="assets/github.png" />
               </span>
             </div>
           </a>

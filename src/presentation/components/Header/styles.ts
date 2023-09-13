@@ -56,13 +56,14 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column-reverse;
-
+    align-items: center;
+    justify-content: center;
     height: 100px;
     nav h3 {
       padding-left: 4rem;
     }
     h3 {
-      font-size: 25px;
+      font-size: 20px;
     }
     nav {
       padding: 0;
@@ -75,15 +76,16 @@ export const Container = styled.div`
       background-color: #fff;
       display: flex;
       flex-direction: column;
-      height: 37%;
+      height: 40%;
       justify-content: center;
-      left: 0;
+      left: -3px;
       position: fixed;
       text-align: center;
-      top: 0;
+      top: 100px;
       transition: all 0.3s ease-in-out;
-      width: 86%;
+      width: 100%;
       z-index: 300;
+
       .close-button {
         width: 100%;
         display: flex;
@@ -98,18 +100,18 @@ export const Container = styled.div`
       cursor: pointer;
       display: block;
       img {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
         position: absolute;
-        top: 20px;
-        left: 400px;
+        top: 30px;
+        left: 350px;
       }
     }
     .mobile-options ul {
       display: flex;
       flex-direction: column;
-      font-size: 30px;
-      gap: 4rem;
+      font-size: 20px;
+      gap: 3rem;
       list-style: none;
     }
   }

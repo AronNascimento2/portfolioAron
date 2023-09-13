@@ -5,7 +5,7 @@ export const About = () => {
     <S.Container>
       <div className="content-about">
         <div className="box-about">
-          <img className="img-about" src="src/assets/notebook.png" alt="" />
+          <img className="img-about" src="assets/notebook.png" alt="" />
         </div>
         <div className="informations-about">
           <h4>

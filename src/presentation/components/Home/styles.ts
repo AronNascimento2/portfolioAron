@@ -29,7 +29,7 @@ export const Container = styled.div`
 
   .content {
     display: flex;
-    gap: 10rem;
+
     justify-content: center;
   }
   .informations {
@@ -38,7 +38,7 @@ export const Container = styled.div`
     max-width: 57rem;
     position: relative;
     height: 100%;
-    justify-content: space-between;
+    gap: 10rem;
   }
 
   .box {
@@ -134,19 +134,30 @@ export const Container = styled.div`
       justify-content: center;
     }
     .content {
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
       gap: 3rem;
     }
     .box {
-      display: none;
+      height: 10px;
+      width: 200px;
+      top: 10%;
     }
     .box img {
+      left: 15%;
+      height: 220px;
+      width: 150px;
     }
     .informations {
       max-width: none;
       text-align: center;
-      padding: 0 1rem;
+      gap: 5rem;
+      justify-content: center;
+    }
+    @keyframes expandHeight {
+      to {
+        height: 300px; /* Expande a altura para o valor desejado */
+      }
     }
     h1 {
       font-size: 3.5rem;

@@ -30,26 +30,21 @@ export const Header = () => {
       </nav>
 
       <div className="menu" onClick={() => handleModal()}>
-        <img src="src/assets/menu.png" alt="" />
+        <img src="/assets/menu.png" alt="" />
       </div>
       {open && (
         <div className="mobile-options">
-          <div className="close-button">
-            <span onClick={() => handleModal()}>
-              <div>x</div>
-            </span>
-          </div>
           <ul>
-            <li>
+            <li onClick={() => handleModal()}>
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li onClick={() => handleModal()}>
               <a href="#about">About</a>
             </li>
-            <li>
+            <li onClick={() => handleModal()}>
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li onClick={() => handleModal()}>
               <a href="#contact">Contact</a>
             </li>
           </ul>
