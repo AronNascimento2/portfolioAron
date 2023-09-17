@@ -153,6 +153,9 @@ export const Container = styled.div`
       text-align: center;
       gap: 5rem;
       justify-content: center;
+      > div {
+        padding: 1rem;
+      }
     }
     @keyframes expandHeight {
       to {

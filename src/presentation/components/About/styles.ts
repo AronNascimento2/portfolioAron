@@ -66,11 +66,13 @@ export const Container = styled.div`
     }
     .img-about {
       width: auto;
-      max-width: 400px;
+      max-width: 350px;
+      max-height: 200px;
+      top: -19px;
     }
     .content-about {
       width: auto;
-      max-width: 400px;
+      max-width: 300px;
       display: flex;
       flex-direction: column;
     }
@@ -86,7 +88,8 @@ export const Container = styled.div`
     .box-about {
       width: auto;
       margin: 1rem;
-      max-width: 500px;
+      max-width: 400px;
+      max-height: 200px;
     }
   }
 `;
