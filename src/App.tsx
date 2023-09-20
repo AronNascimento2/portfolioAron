@@ -1,15 +1,13 @@
 import * as S from "./App.ts";
-import { About } from "./presentation/components/About";
-import { Contact } from "./presentation/components/Contact";
-import { Footer } from "./presentation/components/Footer/index.tsx";
-import { Header } from "./presentation/components/Header";
-import { Home } from "./presentation/components/Home";
-import { Projects } from "./presentation/components/Projects";
+import { About } from "./presentation/Sections/About/index.tsx";
+import { Contact } from "./presentation/Sections/Contact/index.tsx";
+import { Home } from "./presentation/Sections/Home/index.tsx";
+import { Projects } from "./presentation/Sections/Projects/index.tsx";
+import { Footer } from "./presentation/Components/Footer/index.tsx";
 
 function App() {
   return (
     <S.StyledDiv>
-      <Header />
       <section id="home">
         <Home />
       </section>
