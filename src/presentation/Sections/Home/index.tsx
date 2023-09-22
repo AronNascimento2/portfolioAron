@@ -16,7 +16,7 @@ export const Home = () => {
           <img className="photo" src="assets/aron1.png" alt="" />
         </div>
       </div>
-      <a className="download-button" href="curriculo-Aron.pdf" download>
+      <a className="download-button" href="assets/currículoAron.pdf" download>
         <button className="button button-responsive">Download CV</button>
       </a>
     </S.Container>
