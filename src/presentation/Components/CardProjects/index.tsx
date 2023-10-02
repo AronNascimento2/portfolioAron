@@ -55,7 +55,7 @@ export const CardProjects = () => {
                       <p className="techno">Descrição:</p>
                       <p className="description">{project.description}</p>
                       {project.observation &&
-                        <><p className="techno">Observações:</p><p className="description">{project.observation}</p></>
+                        <><p className="techno">Observações:</p><p >{project.observation}</p></>
                       }
 
                       <div className="stacks">
