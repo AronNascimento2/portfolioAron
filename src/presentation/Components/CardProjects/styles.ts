@@ -173,6 +173,8 @@ export const Modal = styled.div`
     }
     .techs {
       display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .title {
     }
