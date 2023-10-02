@@ -22,7 +22,6 @@ export const projects: ProjectModel[] = [
     site: "https://playshop-commerce.vercel.app/",
     description:
       "O PlayShop oferece uma experiência real de compras em um e-commerce. Além de permitir que você adicione seus produtos ao carrinho, podemos lembrar quais foram os últimos itens clicados e manter seus produtos no carrinho utilizando cookies. Você pode fazer buscas por seus itens favoritos, fazer login e finalizar suas compras com um cartão de crédito fictício.",
-    observation:"O projeto está passando por melhorias e a experiência pode não estar completa.",
       stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" , "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg", "https://sujeitoprogramador.com/wp-content/uploads/2019/05/styled.png"],
 
   },
