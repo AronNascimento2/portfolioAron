@@ -10,7 +10,7 @@ export const projects: ProjectModel[] = [
     site: "https://powerfit-gym.vercel.app/",
     description:
       "POWERFIT é um site de academia com recursos que incluem informações sobre horários de aulas, unidades próximas, modalidades de treino oferecidas pela academia e planos de aulas.",
-    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "Styled-Components"],
+    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://sujeitoprogramador.com/wp-content/uploads/2019/05/styled.png"],
   },
 
   {
@@ -23,7 +23,7 @@ export const projects: ProjectModel[] = [
     description:
       "O PlayShop oferece uma experiência real de compras em um e-commerce. Além de permitir que você adicione seus produtos ao carrinho, podemos lembrar quais foram os últimos itens clicados e manter seus produtos no carrinho utilizando cookies. Você pode fazer buscas por seus itens favoritos, fazer login e finalizar suas compras com um cartão de crédito fictício.",
     observation:"O projeto está passando por melhorias e a experiência pode não estar completa.",
-      stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" , "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg", "Styled-Components"],
+      stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" , "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg", "https://sujeitoprogramador.com/wp-content/uploads/2019/05/styled.png"],
 
   },
   {
