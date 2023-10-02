@@ -173,7 +173,6 @@ export const Modal = styled.div`
     }
     .techs {
       display: flex;
-      flex-direction: column;
     }
     .title {
     }

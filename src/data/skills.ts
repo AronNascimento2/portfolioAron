@@ -31,4 +31,11 @@ export const skills: SkillsModel[] = [
     id: 7,
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
   },
+  {
+    id:8,
+    icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+  },
+  {id:9,
+  icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+}
 ];

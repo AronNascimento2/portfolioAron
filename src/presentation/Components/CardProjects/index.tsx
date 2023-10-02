@@ -62,9 +62,15 @@ export const CardProjects = () => {
                         <p className="techno">Tecnologias:</p>
                         <div className="techs">
                           {project.stacks.map((stack) => (
-                            <span key={stack} className="tech">
-                              {stack}
-                            </span>
+                             <img
+                             title={stack}
+                             key={stack}
+                             alt={stack}
+                             height="40"
+                             width="60"
+                             src={stack}
+                           />
+                           
                           ))}
                         </div>
                       </div>

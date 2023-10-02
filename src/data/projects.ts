@@ -10,7 +10,7 @@ export const projects: ProjectModel[] = [
     site: "https://powerfit-gym.vercel.app/",
     description:
       "POWERFIT é um site de academia com recursos que incluem informações sobre horários de aulas, unidades próximas, modalidades de treino oferecidas pela academia e planos de aulas.",
-    stacks: ["React", "Styled-Components"],
+    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "Styled-Components"],
   },
 
   {
@@ -23,7 +23,7 @@ export const projects: ProjectModel[] = [
     description:
       "O PlayShop oferece uma experiência real de compras em um e-commerce. Além de permitir que você adicione seus produtos ao carrinho, podemos lembrar quais foram os últimos itens clicados e manter seus produtos no carrinho utilizando cookies. Você pode fazer buscas por seus itens favoritos, fazer login e finalizar suas compras com um cartão de crédito fictício.",
     observation:"O projeto está passando por melhorias e a experiência pode não estar completa.",
-      stacks: ["React", "Nodejs", "Docker", "Styled-Components"],
+      stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" , "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg", "Styled-Components"],
 
   },
   {
@@ -36,7 +36,7 @@ export const projects: ProjectModel[] = [
     site: "https://superheroes-ruby.vercel.app/",
     description:
       "Neste projeto, mesmo que eu esteja consumindo uma API, o foco foi praticar o uso do TailwindCSS! Foi uma experiência interessante. Percebi que o Tailwind possui uma curva de aprendizado suave, e estou entusiasmado para explorar as inúmeras possibilidades que este framework oferece,",
-    stacks: ["React", "TailwindCSS"],
+    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"],
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ export const projects: ProjectModel[] = [
     repo: "https://github.com/AronNascimento2/pokedexAngular",
     site: "https://pokedex-angular-sand.vercel.app/",
     description: "Meu primeiro projeto em Angular, foi interessante conhecer o Angular e ver suas possibilidades ",
-    stacks: ["Angular"],
+    stacks: ["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg","https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"],
   },
   {
     id: 5,
