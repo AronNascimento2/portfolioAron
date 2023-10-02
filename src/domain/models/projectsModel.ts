@@ -7,4 +7,5 @@ export type ProjectModel = {
   site?: string;
   description?: string;
   stacks: string[];
+  observation?: string
 };

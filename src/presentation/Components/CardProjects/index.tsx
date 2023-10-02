@@ -54,6 +54,10 @@ export const CardProjects = () => {
                     <div className="text">
                       <p className="techno">Descrição:</p>
                       <p className="description">{project.description}</p>
+                      {project.observation &&
+                        <><p className="techno">Observações:</p><p className="description">{project.observation}</p></>
+                      }
+
                       <div className="stacks">
                         <p className="techno">Tecnologias:</p>
                         <div className="techs">
