@@ -8,11 +8,13 @@ export const About = () => {
       <div className="wrapper">
         <div className="informations-about">
           <p>
-            Olá, meu nome é Aron e sou um desenvolvedor de São Paulo-SP, com uma
+            Olá, meu nome é Aron, sou um desenvolvedor de São Paulo-SP, com uma
             paixão pelo mundo da tecnologia e da programação. Com formação em
             Análise e Desenvolvimento de Sistemas e uma sólida base em lógica de
             programação, estou comprometido em criar soluções de software
-            eficazes e elegantes.
+            eficazes e elegantes. Além disso, sou violinista e tenho o sonho de
+            um dia unir música e tecnologia, explorando as possibilidades
+            criativas que surgem dessa combinação única.
           </p>
         </div>
         <div className="content-about">

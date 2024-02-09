@@ -35,7 +35,7 @@ export const projects: ProjectModel[] = [
     site: "https://superheroes-ruby.vercel.app/",
     description:
       "Neste projeto, mesmo que eu esteja consumindo uma API, o foco foi praticar o uso do TailwindCSS! Foi uma experiência interessante. Percebi que o Tailwind possui uma curva de aprendizado suave, e estou entusiasmado para explorar as inúmeras possibilidades que este framework oferece,",
-    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"],
+    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"],
   },
   {
     id: 4,
@@ -46,9 +46,18 @@ export const projects: ProjectModel[] = [
     site: "https://pokedex-angular-sand.vercel.app/",
     description: "Meu primeiro projeto em Angular, foi interessante conhecer o Angular e ver suas possibilidades ",
     stacks: ["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg","https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"],
+  },{
+    id: 5,
+    title: "Academia de Cordas",
+    video: "assets/acsp.webm",
+    thumbnail: "assets/acsp.png",
+    repo: "https://github.com/AronNascimento2/acsp",
+    site: "https://acsp.vercel.app/",
+    description: "Uma página para uma orquestra onde disponibilizo ingressos e contato para contratar os serviços",
+    stacks: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"],
   },
   {
-    id: 5,
+    id: 6,
     title: "FlixFlow",
     video: "",
     repo: "",

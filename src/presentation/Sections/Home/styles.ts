@@ -92,7 +92,7 @@ export const Container = styled.div`
   .box {
     position: relative;
     width: 380px;
-    height: 550px; /* Começa com altura zero, para que a caixa apareça de cima para baixo */
+    height: 610px; /* Começa com altura zero, para que a caixa apareça de cima para baixo */
     background: #e4b04c;
   }
 
@@ -100,8 +100,8 @@ export const Container = styled.div`
     position: absolute;
     width: 400px;
     height: 600px;
-    left: 2px;
-    top: 0;
+    left: 10px;
+    top: 6px;
     right: 30%; /* Começa fora da caixa à direita */
   }
 
