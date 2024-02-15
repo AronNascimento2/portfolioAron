@@ -65,7 +65,7 @@ export const projects: ProjectModel[] = [
     id: 5,
     title: "ERP-development",
     video: "assets/erp.webm",
-    thumbnail: "assets/acsp.png",
+    thumbnail: "assets/erp.png",
     repo: "https://github.com/AronNascimento2/ERP-development",
     site: "https://erp-development-aron.vercel.app/",
     description:
