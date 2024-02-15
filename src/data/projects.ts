@@ -67,7 +67,7 @@ export const projects: ProjectModel[] = [
     video: "assets/erp.webm",
     thumbnail: "assets/erp.png",
     repo: "https://github.com/AronNascimento2/ERP-development",
-    site: "https://erp-development-aron.vercel.app/",
+    site: "https://erp-development.vercel.app/",
     description:
       "Um sistema ERP modular",
     stacks: [
