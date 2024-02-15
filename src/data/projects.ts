@@ -69,7 +69,7 @@ export const projects: ProjectModel[] = [
     repo: "https://github.com/AronNascimento2/ERP-development",
     site: "https://erp-development.vercel.app/",
     description:
-    "Um sistema ERP modular para acessar o sistema utilize as credenciais <br>cnpj:23.189.114/0001-27, <br>Usuário:aron, <br>senha:aron",
+    "Um sistema ERP modular para acessar o sistema utilize as credenciais   CNPJ:23.189.114/0001-27,   Usuário:aron,   Senha:aron",
     stacks: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     ],
