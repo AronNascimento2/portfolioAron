@@ -69,7 +69,7 @@ export const projects: ProjectModel[] = [
     repo: "https://github.com/AronNascimento2/ERP-development",
     site: "https://erp-development.vercel.app/",
     description:
-    "Um sistema ERP modular para acessar o sistema utilize as credenciais   CNPJ:23.189.114/0001-27,   Usuário:aron,   Senha:aron",
+      "Um sistema ERP modular para acessar o sistema utilize as credenciais   CNPJ:23.189.114/0001-27,   Usuário:aron,   Senha:aron",
     stacks: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     ],
@@ -89,11 +89,15 @@ export const projects: ProjectModel[] = [
   },
   {
     id: 7,
-    title: "FlixFlow",
-    video: "",
-    repo: "",
-    site: "",
-    description: "",
-    stacks: ["Angular"],
+    title: "Translator-googleAPI",
+    video: "assets/translator.webm",
+    thumbnail: "assets/translator.png",
+    repo: "https://github.com/AronNascimento2/translator",
+    site: "https://translator-texts.vercel.app/",
+    description: "Fiz um tradutor de voz e texto para praticar o uso das APIs do google",
+    stacks: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg",
+    ],
   },
 ];
