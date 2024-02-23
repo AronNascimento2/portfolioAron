@@ -41,7 +41,7 @@ export const Container = styled.div`
 
   .informations {
     opacity: 0;
-    animation: fadeInContent 2s ease-in-out 2s forwards;
+    animation: fadeInContent 1s ease-in-out 1s forwards;
   }
 
   .box {
@@ -51,6 +51,11 @@ export const Container = styled.div`
   .download-button {
     opacity: 0;
     animation: fadeInContent 1s ease-in-out 3s forwards;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
   @keyframes fadeInContent {
     from {
