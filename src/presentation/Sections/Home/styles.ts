@@ -128,12 +128,12 @@ export const Container = styled.div`
     .content {
       flex-direction: column;
       align-items: center;
-      gap: 3rem;
+      gap: 1rem;
     }
     .box {
-      height: 700px;
+      height: 668px;
       width: 280px;
-      top: -210px;
+      top: -196px;
     }
     .box img {
       position: absolute;
@@ -148,7 +148,6 @@ export const Container = styled.div`
       align-items: center;
       gap: 2rem;
       position: relative;
-      bottom: 2%;
       justify-content: center;
       > div {
         padding: 1rem;
