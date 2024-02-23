@@ -69,7 +69,7 @@ export const projects: ProjectModel[] = [
     repo: "https://github.com/AronNascimento2/ERP-development",
     site: "https://erp-development.vercel.app/",
     description:
-      "Um sistema ERP modular para acessar o sistema utilize as credenciais   CNPJ:23.189.114/0001-27,   Usuário:aron,   Senha:aron",
+      "Um sistema ERP modular com integração com o googleMaps para visualização de usuários. Para acessar o sistema utilize as credenciais   CNPJ:23.189.114/0001-27,   Usuário:aron,   Senha:aron",
     stacks: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     ],
@@ -94,7 +94,7 @@ export const projects: ProjectModel[] = [
     thumbnail: "assets/translator.png",
     repo: "https://github.com/AronNascimento2/translator",
     site: "https://translator-texts.vercel.app/",
-    description: "Fiz um tradutor de voz e texto para praticar o uso das APIs do google",
+    description: "Um tradutor de voz e texto para praticar o uso das APIs do google minha intenção é aperfeiçoar este projeto e integra-lo a um IA para o usuário poder conversar de forma dinâmica em inglês",
     stacks: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg",
