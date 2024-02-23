@@ -12,7 +12,7 @@ export const Home = () => {
             <a href="assets/curriculoAron.pdf" download>
               <button className="button">Download CV</button>
             </a>
-            <a href="assets/curriculoAron.pdf" download>
+            <a href="assets/resumeAron.pdf" download>
               <button className="button">Download Resume</button>
             </a>
           </div>
