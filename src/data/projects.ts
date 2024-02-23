@@ -76,7 +76,7 @@ export const projects: ProjectModel[] = [
   },
   {
     id: 6,
-    title: "Academia de Corda",
+    title: "Academia de Cordas",
     video: "assets/acsp.webm",
     thumbnail: "assets/acsp.png",
     repo: "https://github.com/AronNascimento2/acsp",
