@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   font-family: "Poppins", sans-serif;
   .button {
-    width: 250px;
+    width: 260px;
     height: 45px;
     border-radius: 25px;
     background-color: #e4b04c;
@@ -18,7 +18,21 @@ export const Container = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     border: none;
     color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
+  .flags {
+  border: none;
+  color: white;
+  
+  text-align: center;
+
+  opacity: 0.8;
+  transition: 0.3s;
+}
+  .flags:hover {opacity: 1}
   .button-responsive {
     display: none;
   }
@@ -50,7 +64,7 @@ export const Container = styled.div`
   }
   .download-button {
     opacity: 0;
-    animation: fadeInContent 1s ease-in-out 3s forwards;
+    animation: fadeInContent 1s ease-in-out 1s forwards;
   }
   .links {
     display: flex;
@@ -116,10 +130,9 @@ export const Container = styled.div`
       display: none;
     }
     a {
-      text-decoration: none;
     }
     .button-responsive {
-      display: block;
+      display: flex;
       top: -98px;
       position: relative;
       width: 250px;
@@ -128,17 +141,18 @@ export const Container = styled.div`
     .content {
       flex-direction: column;
       align-items: center;
-      gap: 1rem;
+      gap: 3rem;
     }
     .box {
-      height: 668px;
+      height: 720px;
       width: 280px;
       top: -196px;
     }
     .box img {
       position: absolute;
       right: 20%;
-      left: 2%;
+      left: 6%;
+      top: 5%;
       height: 414px;
       width: 276px;
     }
