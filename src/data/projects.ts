@@ -61,19 +61,7 @@ export const projects: ProjectModel[] = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
     ],
   },
-  {
-    id: 5,
-    title: "ERP-development",
-    video: "assets/erp.webm",
-    thumbnail: "assets/erp.png",
-    repo: "https://github.com/AronNascimento2/ERP-development",
-    site: "https://erp-development.vercel.app/",
-    description:
-      "Um sistema ERP modular com integração com o googleMaps para visualização de usuários. Para acessar o sistema utilize as credenciais   CNPJ:23.189.114/0001-27,   Usuário:aron,   Senha:aron",
-    stacks: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    ],
-  },
+  
   {
     id: 6,
     title: "Academia de Cordas",

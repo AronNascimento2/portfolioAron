@@ -9,9 +9,10 @@ export const Container = styled.div`
 
   font-family: "Poppins", sans-serif;
   .button {
-    width: 260px;
-    height: 45px;
-    border-radius: 25px;
+    width: 300px;
+    height: 60px;
+    font-size: 12px;
+    border-radius: 40px;
     background-color: #e4b04c;
     color: #f9f9f9;
     font-weight: 600;
@@ -24,15 +25,17 @@ export const Container = styled.div`
     gap: 1rem;
   }
   .flags {
-  border: none;
-  color: white;
-  
-  text-align: center;
+    border: none;
+    color: white;
 
-  opacity: 0.8;
-  transition: 0.3s;
-}
-  .flags:hover {opacity: 1}
+    text-align: center;
+
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  .flags:hover {
+    opacity: 1;
+  }
   .button-responsive {
     display: none;
   }
@@ -133,10 +136,10 @@ export const Container = styled.div`
     }
     .button-responsive {
       display: flex;
-      top: -98px;
+      top: -144px;
       position: relative;
-      width: 250px;
-      min-height: 45px;
+      width: 300px;
+      min-height: 60px;
     }
     .content {
       flex-direction: column;
@@ -146,7 +149,7 @@ export const Container = styled.div`
     .box {
       height: 720px;
       width: 280px;
-      top: -196px;
+      top: -234px;
     }
     .box img {
       position: absolute;
@@ -163,6 +166,8 @@ export const Container = styled.div`
       gap: 2rem;
       position: relative;
       justify-content: center;
+      top: -5%;
+
       > div {
         padding: 1rem;
       }
